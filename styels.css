@@ -28,12 +28,43 @@ section {
     padding: 15px;
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 img {
     max-width: 400px;
-    margin: 10px;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
     border-radius: 5px;
 }
+.facts {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f1f5f5;
+    border-left: 4px solid #3E4E50;
+    border-radius: 4px;
+}
+.trailer {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f1f5f5;
+    border-left: 4px solid #3E4E50;
+    border-radius: 4px;
+}
+.trailer iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 5px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .trailer iframe {
+        height: 210px;
+    }
+}
+
 footer {
     text-align: center;
     background-color: #333;
